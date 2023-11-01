@@ -1,0 +1,27 @@
+GET http://localhost:3000/routes
+
+###
+GET http://localhost:3000/routes/64e61585ccdbc11f0399219a
+###
+POST http://localhost:3000/routes
+Content-Type: application/json
+
+{
+    "name": "route test 1",
+    "source_id": "ChIJD9670i3LzZQRcxHC86unJ0s",
+    "destination_id": "ChIJ319X92TLzZQRnZ3v_0DBQ1k"
+}
+
+####
+GET http://localhost:3000/places?text=rua iraja, jacarei
+
+
+###
+##coisas do mapa
+
+###pegar place_id
+GET http://localhost:3000/places?text=av cap joao jose de macedo, jacarei
+
+### pegar direçoes entre 2 pontos
+GET http://localhost:3000/directions?originId=ChIJD9670i3LzZQRcxHC86unJ0s&destinationId=ChIJTZqU4GTLzZQR8oCRzEoIULc
+

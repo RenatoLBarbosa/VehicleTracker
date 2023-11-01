@@ -1,0 +1,14 @@
+GET http://192.168.0.23:3000/places?text=Belo horizonte,mg
+### host.docker.internal
+GET http://host.docker.internal:3000/places?text=rua iraja, jacarei
+#####
+GET http://localhost:3001/api/places?text=betim,mg
+#####
+GET http://localhost:3001/api/routes/64ef568051a23ff183d9bc3e
+
+####
+GET http://host.docker.internal:3000/directions?originId=ChIJD9670i3LzZQRcxHC86unJ0s&destinationId=ChIJTZqU4GTLzZQR8oCRzEoIULc
+#######
+GET http://localhost:3001/api/routes/64f1fb0b16675c54f8d491b5
+#######
+GET http://host.docker.internal:3000/routes/64f1fb0b16675c54f8d491b5
