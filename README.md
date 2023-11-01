@@ -16,6 +16,8 @@
 
 <p>Utilizado api <strong>Places API</strong> da Google para conusmo dos mapas/locais, recomedado que seja criado uma key particular para utilizá-la. (Importante ser inserida a key no .env do Nest e Next como valor da varável <strong>GOOGLE_MAPS_API_KEY</strong>).</p>
 <p>Para pagina de admin temos comunicação via websocket para constante atualização da localização do veículo.</p>
+<p>Para iniciar os containers está disponibilizado o <strong>run.sh</strong> que irá subir os containers </p>
+
 
 <h3>Author</h3>
 
