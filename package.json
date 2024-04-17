@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "@types/next": "^9.0.0",
+    "@types/node": "^20.12.7"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.3"
+  }
+}
